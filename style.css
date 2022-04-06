@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* ===== RESET ====================== */
+* {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: var(--title-color);
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: linear-gradient(236.85deg, #041832 27.26%, #3468A7 96.03%);
+}
+
+.container {
+  background: hsla(215, 100%, 96%, 1);
+  
+  margin: 1.5rem;
+  
+  border-radius: 10px;
+
+  box-shadow: 4px 4px 22px black;
+}
+
+.grid {
+  display: grid;
+  gap: 0.5rem;
+}
+
+/*== VARIABLES============================ */
+ :root {
+   --text-font: 1.125rem
+ }
+
+
+/*== HEADER============================ */
+
+header {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  align-items: center;
+  margin-top: 0;
+}
+
+.info {
+margin-left: 0.625rem;
+}
+
+.info h2 {
+  font-size: 1.475rem;
+  text-align: center;
+}
+
+.info h3 {
+  font-size: 1.125rem;
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: .5rem;
+}
+
+.header img {
+  clip-path: circle();
+  height: 4.68rem;
+  width: 4.74rem;
+  transition: 0.6s;
+}
+
+.header img:hover {
+  transform: translate(4px); 
+}
+
+.logo {
+  margin: 1.3rem;
+  font-size: 1.90rem;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  transition: 0.5s;
+}
+
+.logo:hover {
+  transform: translateX(4px);
+}
+
+.logo span {
+  color: #499CFE;
+  
+}
+
+.icons {
+  display: inline-block
+}
+
+.icons a i {
+ transition: 0.3s;
+ margin: 0 0.8rem;
+ display: inline-block
+} 
+
+.icons a i:hover {
+  color: #3468A7;
+  
+  transform: translateY(-4px);
+}
+
+
+/*== MAIN============================ */
+.projects {
+  background: linear-gradient(230.65deg, #499CFE 27.49%, #9CC8FC 83.19%);
+
+  margin: 1rem 1rem 4.187rem 1rem;
+
+  border-radius: 10px;
+
+  filter: drop-shadow(4px 4px 3px black);
+}
+
+.projects ul {
+  padding: 4rem;
+  text-align: center;
+  
+}
+
+.projects ul h1 {
+  font-size: 2.5rem;
+  font-weight: bold; 
+}
+
+
+.projects li {
+  margin-top: 2.5rem;  
+}
+
+.projects li a {
+  font-size: 1.3rem;
+  font-weight: normal;
+  
+  transition: 0.2s;  
+  
+  display: inline-block;
+}
+
+.projects li a:hover {
+  transform: translate(3px);
+  color: aliceblue;
+  filter: drop-shadow(2px 1px 1px black);
+}
